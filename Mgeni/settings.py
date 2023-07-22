@@ -29,10 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-# CSRF_TRUSTED_ORIGINS
-
-CSRF_TRUSTED_ORIGINS = ["https://bharathmgeni-production.up.railway.app"]
-
 
 # Application definition
 
@@ -81,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Mgeni.wsgi.application'
+# WSGI_APPLICATION = 'Mgeni.wsgi.application'
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': [
@@ -172,8 +168,8 @@ USE_TZ = True
 
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=5877
-EMAIL_HOST_USER='ram.bharathbrands@gmail.com'
-EMAIL_HOST_PASSWORD='eccfutcatpsykoho'
+EMAIL_HOST_USER='bethwpage@gmail.com'
+EMAIL_HOST_PASSWORD='@Bethdev'
 EMAIL_USE_TLS=True
 EMAIL_USE_SSL=False
 

@@ -18,7 +18,7 @@ To get this project up and running locally, you must already have python virtual
 `python 3.8 version`
 
 # Installation
-1.Then install virtualenv:
+1. Install virtualenv:
 
 `sudo pip install virtualenv`
 

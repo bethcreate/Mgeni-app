@@ -43,24 +43,6 @@ def unique_id(pre, suf):
 def home(request):
     return render(request, "dashboard.html")
 
-
-# def Department(request):
-#     records=department.objects.all()
-#     form = departmentForm(initial={'user_id':request.user.id})
-#     if request.method=='POST':
-#         form= departmentForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             print('This valid and saved')
-#             return redirect('Department')
-#         else:
-#             print(form.errors)
-#     context={
-#         'form':form,'records':records,'department':'active'
-#     }
-#     return render(request,'mgeni/department.html',context)
-
-
 # login view
 def login_user(request):
     username=request.POST.get('username')
